@@ -80,6 +80,10 @@ st.markdown(
     """
 )
 
+from PIL import Image
+image = Image.open('apps/images/unternehmenssteuer.png')
+st.image(image)
+
 st.markdown(
     """
     ### Wie lösen wir das Problem?
