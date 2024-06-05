@@ -49,7 +49,7 @@ st.markdown(
 
     Ich möchte jedoch alles daran setzen, die Attraktivität und Lebensqualität Winterthurs zu erhalten und zu verbessern, sodass unsere Stadt auch für zukünftige Generationen ein lebenswerter Ort bleibt.
     
-    Ein weiterer Grund sind persönliche Erfahrungen, die mich geprägt haben. Ich weiß, dass eine solide Wirtschaft nicht die einzige Grundlage für eine funktionierende Gesellschaft ist. Die Lebensqualität, die sich aus sozialen, sportlichen und kulturellen Angeboten ergibt, ist mindestens genauso wichtig. Während meiner Zeit in der Sekundarschule St. Georgen musste ich eine Auszeit nehmen. Das Trampolin und die Sportangebote des BCW halfen mir, die richtige Richtung für meine Entwicklung zu finden.
+    Ein weiterer Grund sind persönliche Erfahrungen, die mich geprägt haben. Ich weiss, dass eine solide Wirtschaft nicht die einzige Grundlage für eine funktionierende Gesellschaft ist. Die Lebensqualität, die sich aus sozialen, sportlichen und kulturellen Angeboten ergibt, ist mindestens genauso wichtig. Während meiner Zeit in der Sekundarschule St. Georgen musste ich eine Auszeit nehmen. Das Trampolin und die Sportangebote des BCW halfen mir, die richtige Richtung für meine Entwicklung zu finden.
 
     Deshalb interessiere ich mich besonders für die Bereiche Bildung, Sozialarbeit und Sport. Ich sehe sie als wesentliche Säulen einer Gesellschaft, die nicht in Gewinner und Verlierer unterteilt, sondern versucht, allen einen Platz zu geben.
     """
