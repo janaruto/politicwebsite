@@ -7,6 +7,28 @@ st.set_page_config(
 
 import streamlit as st
 
+# JavaScript for toggling sidebar visibility and ensuring it's displayed on mobile
+toggle_sidebar_script = """
+<script>
+    function toggleSidebar() {
+        var sidebar = document.querySelector('.css-1lcbmhc.e1fqkh3o1'); // Select sidebar element
+        if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+            sidebar.style.display = 'block'; // Show sidebar
+        } else {
+            sidebar.style.display = 'none'; // Hide sidebar
+        }
+    }
+
+    // Ensure sidebar is visible on mobile by default
+    window.onload = function() {
+        var viewportWidth = window.innerWidth;
+        var sidebar = document.querySelector('.css-1lcbmhc.e1fqkh3o1');
+        if (viewportWidth < 768) { // Assuming mobile view is less than 768px
+            sidebar.style.display = 'block';
+        }
+    }
+</script>
+"""
 
 st.write("# Luegd das also doch no öpper anders ussert ich ah?! 🤯")
 
