@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 st.set_page_config(page_title="CV", page_icon="📄")
 
@@ -20,13 +21,11 @@ from PIL import Image
 
 EMAIL = "guddal.jan@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "hhttps://www.linkedin.com/in/jan-guddal-a48671167/",
+    "LinkedIn": "https://www.linkedin.com/in/jan-guddal-a48671167/",
     "FaceBook": "https://www.facebook.com/jan.guddal",
     "Insta": "https://www.instagram.com/jguddal/",
     "Twitter": "https://twitter.com/GuddalJan"
 }
-
-
 
 
 # --- SOCIAL LINKS ---

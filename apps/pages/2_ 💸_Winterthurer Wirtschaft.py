@@ -10,16 +10,43 @@ st.set_page_config(page_title="Winterthurer Wirtschaft", page_icon="💸")
 
 st.markdown("# Winterthurer Wirtschaft")
 st.sidebar.header("Winterthurer Wirtschaft")
+status_text = st.sidebar.empty()
+
+
 st.markdown(
     """
-    ### Wie hat sich die Winterthurer Wirtschaft in den letzten Jahren so entwickelt? 🤓
+    ### Von der Industrie zu Bildung & Kultur
+    """
+)
+
+from PIL import Image
+image = Image.open('apps/images/industrie.png')
+st.image(image)
+
+st.write(
+    """
+    Winterthur hat, ähnlich wie die Schweiz insgesamt, eine schwierige Vergangenheit zu bewältigen. Mit der Globalisierung gerieten die Industrie-Arbeitsplätze in der Schweiz unter Druck. Winterthurer Weltfirmen wie Sulzer und Rieter verschwanden oder mussten mit schmerzhaften Einschnitten – sprich Entlassungen – saniert und umstrukturiert werden. Der Umbau der Schweiz in einen Finanz- und Dienstleistungsstandort mit kleinen Firmen der Spitzentechnologie und -fertigung hat Winterthur hautnah durchstehen müssen. Wirklich gut gelungen ist es der Stadt aber nicht.
+
+    Heute ist der größte Arbeitgeber in Winterthur die Stadt selbst. Auf Platz drei rangiert das Kantonsspital Winterthur (KSW), das nur bedingt als privates Unternehmen betrachtet werden kann. Die Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) auf Platz vier bildet zwar gute Leute aus, doch die Mehrheit dieser Absolventen wird nicht in Winterthur arbeiten, da die entsprechenden Arbeitsplätze fehlen. Auf Platz fünf liegt Zimmer Biomet, die im Kanton Zug versteuern. Alle diese Unternehmen bringen der Stadt kaum Steuereinnahmen.
+
+    Winterthur hat den Wandel von einer Industrie- zu einer Bildungs- und Kulturstadt durchgemacht – eine Rechnung, die nie ganz aufgehen wird. Denn Bildung und Kultur kosten, und ohne ausreichende Einnahmen aus der Wirtschaft bleibt die Finanzierung dieser wichtigen Bereiche eine Herausforderung.
+
+    """
+)
+
+image = Image.open('apps/images/arbeitgeber.png')
+st.image(image)
+
+st.markdown(
+    """
+    ### Wie hat sich die Winterthurer Wirtschaft in den letzten Jahren so entwickelt? 
     Wie im Sport, nehmen wir auch hier zum vergleichen die Stadt Zürich
     - Datenquelle [ Statistisches Amt Kt. ZH](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt.html)
     """
 )
 
 
-status_text = st.sidebar.empty()
+
 
 def plot():
 
