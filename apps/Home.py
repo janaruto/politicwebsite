@@ -5,6 +5,47 @@ st.set_page_config(
     page_icon="🌱🔵",
 )
 
+import streamlit as st
+
+toggle_sidebar_script = """
+<script>
+    function toggleSidebar() {
+        var sidebar = document.querySelector('.css-1lcbmhc.e1fqkh3o1'); // Select sidebar element
+        if (sidebar.style.display === 'none') {
+            sidebar.style.display = 'block'; // Show sidebar
+        } else {
+            sidebar.style.display = 'none'; // Hide sidebar
+        }
+    }
+</script>
+"""
+
+# Create a header bar with a link
+st.markdown("""
+    <style>
+        .header-bar {
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header-bar a {
+            color: #6c757d; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .header-bar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="header-bar">
+        <a onclick="toggleSidebar()">Weitere Themen</a>
+    </div>
+""", unsafe_allow_html=True)
+
+
 st.write("# Luegd das also doch no öpper anders ussert ich ah?! 🤯")
 
 st.sidebar.success("Meine Meinung zu bestimmten Themen, einfach klicken für Insights")
